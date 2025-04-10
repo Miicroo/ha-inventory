@@ -1,0 +1,42 @@
+add_item:
+  description: "Add items to an inventory."
+  fields:
+    name:
+      description: "Name of the inventory item."
+      example: "RC Kitten"
+    quantity:
+      description: "Quantity to add."
+      example: 1080
+    unit:
+      description: "Unit of the inventory item."
+      example: "g"
+    category:
+      description: "Category of the inventory item."
+      example: "Cat"
+
+remove_item:
+  description: "Remove items from an inventory."
+  fields:
+    entity_id:
+      description: "Entity id of the inventory item."
+      example: "inventory.rc_kitten"
+
+increase_quantity:
+    description: "Increase the quantity of an item in the inventory."
+    fields:
+      entity_id:
+        description: "Entity id of the inventory item."
+        example: "inventory.rc_kitten"
+      quantity:
+        description: "The amount to increase."
+        example: 5
+
+decrease_quantity:
+  description: "Decrease the quantity of an item in the inventory."
+  fields:
+    entity_id:
+      description: "Entity id of the inventory item."
+      example: "inventory.rc_kitten"
+    quantity:
+      description: "The amount to increase."
+      example: 5

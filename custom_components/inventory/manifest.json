@@ -1,0 +1,8 @@
+{
+  "domain": "inventory",
+  "name": "Inventory Management",
+  "version": "1.0.0",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": ["@miicroo"]
+}
